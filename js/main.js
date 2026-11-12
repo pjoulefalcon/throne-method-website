@@ -146,10 +146,35 @@ const PAGES = {
 function contactForm() {
   const f = $("#contact-form");
   if (!f) return;
-  f.addEventListener("submit", (ev) => {
+  const note = $(".form-note");
+  f.addEventListener("submit", async (ev) => {
     ev.preventDefault();
-    // PREVIEW ONLY — will be wired to Web3Forms when we go live.
-    $(".form-note").textContent = "Preview only — the form isn't connected yet.";
+    if (!SITE.web3forms_key) { note.textContent = "The form isn't connected yet — please email us directly."; return; }
+    const btn = f.querySelector("button");
+    const data = Object.fromEntries(new FormData(f));
+    if (data.botcheck) return; // spam trap
+    btn.disabled = true; btn.textContent = "Sending…"; note.textContent = "";
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify({
+          access_key: SITE.web3forms_key,
+          subject: `New ${data.interest || "website"} enquiry from ${data.first_name} ${data.last_name}`,
+          from_name: "Throne Method Racing website",
+          replyto: data.email,
+          ...data,
+        }),
+      });
+      const out = await res.json();
+      if (!out.success) throw new Error(out.message);
+      f.reset();
+      note.textContent = "Thanks — your message has been sent. We'll be in touch soon.";
+    } catch (e) {
+      note.textContent = `Sorry, something went wrong. Please email ${SITE.email}.`;
+    } finally {
+      btn.disabled = false; btn.textContent = "Send Message";
+    }
   });
 }
 
