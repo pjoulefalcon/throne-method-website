@@ -1,50 +1,36 @@
 [
   {
     "name": "Perry Jolly",
-    "tag": "",
-    "bio": "Ultra-endurance MTB rider turned roadie in 2026.",
-    "photo": ""
+    "bio": "Ultra-endurance MTB rider turned roadie in 2026."
   },
   {
     "name": "Ethan Young",
-    "tag": "",
-    "bio": "Puncheur, sprinter, and the most aero man in Brisbane.",
-    "photo": ""
+    "bio": "Puncheur, sprinter, and the most aero man in Brisbane."
   },
   {
     "name": "Lachlan Ryan",
-    "tag": "",
-    "bio": "Rouleur and puncheur, bringing big leadouts when it really matters.",
-    "photo": ""
+    "bio": "Rouleur and puncheur, bringing big leadouts when it really matters."
   },
   {
     "name": "Flynn Taylor",
-    "tag": "",
-    "bio": "Team leader and climbing extraordinaire.",
-    "photo": ""
+    "bio": "Team leader and climbing extraordinaire."
   },
   {
     "name": "Sam Lenarduzzi",
-    "tag": "",
-    "bio": "Former professional water polo player, current professional triathlete, and a sprinter with huge watts.",
-    "photo": ""
+    "bio": "Former professional water polo player, current professional triathlete, and a sprinter with huge watts."
   },
   {
     "name": "Ethan Close",
-    "tag": "",
-    "bio": "Punchy, aero, and a big engine. Ethan can do it all.",
-    "photo": ""
+    "bio": "Punchy, aero, and a big engine. Ethan can do it all."
   },
   {
     "name": "Vince Bell",
     "tag": "Development rider",
-    "bio": "Following success in triathlon, Vince is bringing his talent to the bike and absolutely killing it.",
-    "photo": ""
+    "bio": "2nd overall in Junior Pro-Velo 2026, Ethan is going places (the top of the podium)."
   },
   {
     "name": "Ethan Cook",
-    "tag": "",
-    "bio": "2nd overall in Junior Pro-Velo 2026, Ethan is going places (the top of the podium).",
-    "photo": ""
+    "tag": "Development ridder",
+    "bio": "Following success in triathlon, Ethan is bringing his skills to the bike and killing it."
   }
 ]
