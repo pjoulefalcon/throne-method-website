@@ -1,0 +1,74 @@
+{
+  "title_partners": [
+    {
+      "tier": "Principal Title Partner",
+      "name": "Throne Sportswear",
+      "logo": "https://static.wixstatic.com/media/7281d3_cf88df6b11764613a5808bdb2fbe2434~mv2.jpeg",
+      "paragraph_1": "Throne Sportswear is the heart of our operation. Throne's premium race and training kits keep us comfortable, looking good, and cutting through the wind with minimal resistance.",
+      "paragraph_2": "At just $150 for bibs and a jersey, Throne's Foundation range is a favourite for many, giving us the privilege of matching with lots of our friends in the Brisbane cycling community."
+    },
+    {
+      "tier": "Co-Title Partner",
+      "name": "Method Endurance",
+      "logo": "https://static.wixstatic.com/media/7281d3_8ae5270f66e04b18a26c4bd575e1113e~mv2.jpg",
+      "paragraph_1": "Method Endurance is a first-of-its-kind coaching software, providing the perfect solution for riders too serious for a generic plan, but not ready for a $400 / month coach.",
+      "paragraph_2": "Developed by coaches with a proven track record of getting riders to the World Tour, our athletes' routine would be incomplete without Coach M."
+    }
+  ],
+  "home_strip": [
+    {
+      "name": "River City Cycle",
+      "logo": "https://static.wixstatic.com/media/7281d3_41026e9beade4d6b97bea933fd7cc630~mv2.jpg"
+    },
+    {
+      "name": "Obsidian",
+      "logo": "https://static.wixstatic.com/media/7281d3_dccb2c2a94844a3681e84df582019436~mv2.jpg"
+    },
+    {
+      "name": "Method",
+      "logo": "https://static.wixstatic.com/media/7281d3_8ae5270f66e04b18a26c4bd575e1113e~mv2.jpg"
+    },
+    {
+      "name": "226ERS",
+      "logo": "https://static.wixstatic.com/media/7281d3_faab0d9c417846b8857c97129b857276~mv2.png"
+    },
+    {
+      "name": "Throne",
+      "logo": "https://static.wixstatic.com/media/7281d3_cf88df6b11764613a5808bdb2fbe2434~mv2.jpeg"
+    },
+    {
+      "name": "Pemberton",
+      "logo": "https://static.wixstatic.com/media/7281d3_be2c389a927e46c5914bda06dc8fd622~mv2.png"
+    },
+    {
+      "name": "Thrive Local",
+      "logo": "https://static.wixstatic.com/media/7281d3_bb1a18224209491e957b81bf4738ba15~mv2.jpg"
+    }
+  ],
+  "supporting": [
+    {
+      "name": "Obsidian",
+      "logo": "https://static.wixstatic.com/media/7281d3_dccb2c2a94844a3681e84df582019436~mv2.jpg"
+    },
+    {
+      "name": "Supporting partner",
+      "logo": "https://static.wixstatic.com/media/7281d3_6e74aeaba5ac4700aec693e3557769b9~mv2.jpg"
+    },
+    {
+      "name": "226ERS",
+      "logo": "https://static.wixstatic.com/media/7281d3_faab0d9c417846b8857c97129b857276~mv2.png"
+    },
+    {
+      "name": "Supporting partner",
+      "logo": "https://static.wixstatic.com/media/7281d3_9628ce02bd894f7f8e8a7a3fd83b4bf1~mv2.jpg"
+    },
+    {
+      "name": "River City Cycle",
+      "logo": "https://static.wixstatic.com/media/7281d3_41026e9beade4d6b97bea933fd7cc630~mv2.jpg"
+    },
+    {
+      "name": "Thrive Local",
+      "logo": "https://static.wixstatic.com/media/7281d3_bb1a18224209491e957b81bf4738ba15~mv2.jpg"
+    }
+  ]
+}
