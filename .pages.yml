@@ -81,6 +81,7 @@ content:
       - { name: facebook, label: Facebook link, type: string }
       - { name: tiktok, label: TikTok link, type: string }
       - { name: owner, label: Footer credits text, type: text }
+      - { name: web3forms_key, label: Contact form access key (from Web3Forms), type: string }
       - { name: hero_image, label: Home page main photo, type: image }
       - { name: talent_image, label: "\"Elevating Brisbane Talent\" photo", type: image }
       - { name: riders_year, label: "Year in \"Ride for us in ___\"", type: string }
