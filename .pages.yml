@@ -1,0 +1,87 @@
+# Pages CMS editor setup — https://pagescms.org
+# Defines the forms you see when you log in at app.pagescms.org
+
+media:
+  input: images
+  output: /images
+  categories: [image]
+
+content:
+  - name: events
+    label: Events
+    type: file
+    path: content/events.json
+    format: json
+    list: true
+    fields:
+      - { name: title, label: Event name, type: string, required: true }
+      - { name: date, label: Date, type: date, required: true }
+      - { name: start_time, label: Start time (e.g. 7:00 am), type: string }
+      - { name: end_time, label: Finish time (e.g. 11:00 am), type: string }
+      - { name: venue, label: Venue, type: string }
+      - { name: address, label: Address, type: string }
+      - { name: image, label: Event image (optional), type: image }
+      - { name: summary, label: Short summary (shown at the top), type: text }
+      - { name: about, label: About the event, type: text }
+      - { name: slug, label: Web address name (leave blank to auto-fill), type: string }
+
+  - name: riders
+    label: Riders
+    type: file
+    path: content/riders.json
+    format: json
+    list: true
+    fields:
+      - { name: name, label: Name, type: string, required: true }
+      - { name: tag, label: "Badge (optional, e.g. Development rider)", type: string }
+      - { name: bio, label: Description, type: text }
+      - { name: photo, label: Photo (portrait works best), type: image }
+
+  - name: partners
+    label: Partners
+    type: file
+    path: content/partners.json
+    format: json
+    fields:
+      - name: title_partners
+        label: Title partners
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{name}" } }
+        fields:
+          - { name: tier, label: Tier (e.g. Principal Title Partner), type: string }
+          - { name: name, label: Name, type: string }
+          - { name: logo, label: Logo, type: image }
+          - { name: paragraph_1, label: Paragraph 1, type: text }
+          - { name: paragraph_2, label: Paragraph 2, type: text }
+      - name: home_strip
+        label: Logos on the home page
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{name}" } }
+        fields:
+          - { name: name, label: Name, type: string }
+          - { name: logo, label: Logo, type: image }
+      - name: supporting
+        label: Supporting sponsors (Partners page)
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{name}" } }
+        fields:
+          - { name: name, label: Name, type: string }
+          - { name: logo, label: Logo, type: image }
+
+  - name: settings
+    label: Site settings
+    type: file
+    path: content/settings.json
+    format: json
+    fields:
+      - { name: email, label: Contact email, type: string }
+      - { name: phone, label: Phone, type: string }
+      - { name: location, label: Location, type: string }
+      - { name: instagram, label: Instagram link, type: string }
+      - { name: facebook, label: Facebook link, type: string }
+      - { name: tiktok, label: TikTok link, type: string }
+      - { name: owner, label: Footer credits text, type: text }
+      - { name: hero_image, label: Home page main photo, type: image }
+      - { name: talent_image, label: "\"Elevating Brisbane Talent\" photo", type: image }
+      - { name: riders_year, label: "Year in \"Ride for us in ___\"", type: string }
+      - { name: sponsors_year, label: "Year in \"Sponsor us in ___\"", type: string }
