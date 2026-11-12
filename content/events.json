@@ -1,19 +1,17 @@
 [
   {
-    "title": "Throne Method Grand Cycle Showcase",
-    "slug": "grand-cycle-showcase",
-    "date": "2026-12-12",
+    "title": "Aus Road Nats 2027",
+    "date": "2027-01-10",
     "start_time": "12:30 pm",
     "end_time": "2:30 pm",
-    "venue": "South Bank Cycle Arena",
-    "address": "South Bank Parklands, South Brisbane QLD 4101",
+    "venue": "Kings Park, Perth",
+    "address": "Kings Park",
     "image": "https://static.wixstatic.com/media/7281d3_ae94d0719bee41f28aff97d4b326d650~mv2.png",
-    "summary": "A showcase of Brisbane's local cycling talent — races, rider meet-and-greets and a chance to connect with the team.",
-    "about": "Join us at South Bank for an afternoon of racing featuring the Throne Method squad and local up-and-comers. Bring the family, meet the riders and see what the Method is all about."
+    "summary": "The battle for the green and gold stripes.",
+    "slug": "https://roadnationals.org.au/"
   },
   {
     "title": "Cycling Team Celebration Gala Night",
-    "slug": "celebration-gala-night",
     "date": "2026-12-12",
     "start_time": "12:30 pm",
     "end_time": "2:30 pm",
@@ -21,11 +19,11 @@
     "address": "40 Griffith St, New Farm QLD 4005",
     "image": "https://static.wixstatic.com/media/7281d3_be6ceaf056674beeb86180812c0b25c4~mv2.png",
     "summary": "Celebrate the achievements of Throne Method Racing with an evening of food, drinks, and fun.",
-    "about": "Meet the cyclists, enjoy live music, and take part in our charity raffle. An evening of celebration with Throne Method Racing."
+    "about": "Meet the cyclists, enjoy live music, and take part in our charity raffle. An evening of celebration with Throne Method Racing.",
+    "slug": "celebration-gala-night"
   },
   {
     "title": "Beginner Cycling Skills Workshop",
-    "slug": "beginner-skills-workshop",
     "date": "2026-12-12",
     "start_time": "12:30 pm",
     "end_time": "2:30 pm",
@@ -33,6 +31,7 @@
     "address": "West End, Brisbane QLD",
     "image": "https://static.wixstatic.com/media/7281d3_e856cd7c1bcd40aab9aa75f3e2c5bab4~mv2.png",
     "summary": "A free workshop for youths and adults, led by Throne Method cyclists.",
-    "about": "Learn the fundamentals — bike handling, group riding etiquette and road safety — from the Throne Method squad. Free for all ages and abilities."
+    "about": "Learn the fundamentals — bike handling, group riding etiquette and road safety — from the Throne Method squad. Free for all ages and abilities.",
+    "slug": "beginner-skills-workshop"
   }
 ]
