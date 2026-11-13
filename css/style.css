@@ -174,7 +174,7 @@ form button:hover{background:#000}
 
 /* ---- footer ---- */
 .site-footer{padding:72px 0 36px}
-.footer-mark{font-family:var(--display);font-weight:900;font-stretch:125%;font-size:clamp(22px,7vw,92px);letter-spacing:.16em;line-height:1;margin:0 0 88px;white-space:nowrap;overflow:hidden}
+.footer-mark{font-family:var(--display);font-weight:900;font-stretch:125%;font-size:clamp(18px,4vw,48px);letter-spacing:.16em;line-height:1;margin:0 0 56px;white-space:nowrap;overflow:hidden}
 .footer-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
 .footer-cols h4{font:500 20px var(--body);text-transform:uppercase;margin:0 0 10px}
 .footer-cols p,.footer-cols a{font-size:14px;color:var(--muted);margin:0;text-decoration:none;display:block}
