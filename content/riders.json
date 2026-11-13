@@ -1,11 +1,13 @@
 [
   {
     "name": "Perry Jolly",
-    "bio": "Ultra-endurance MTB rider turned roadie in 2026."
+    "bio": "Ultra-endurance MTB rider turned roadie in 2026.",
+    "photo": "/images/SnapInsta.to_670549962_18352919683238581_8580323717273624923_n.jpg"
   },
   {
     "name": "Ethan Young",
-    "bio": "Puncheur, sprinter, and the most aero man in Brisbane."
+    "bio": "Puncheur, sprinter, and the most aero man in Brisbane.",
+    "photo": "/images/SnapInsta.to_613751153_18438718228104869_1953971291001758648_n.jpg"
   },
   {
     "name": "Lachlan Ryan",
@@ -30,7 +32,7 @@
   },
   {
     "name": "Ethan Cook",
-    "tag": "Development ridder",
+    "tag": "Development rider",
     "bio": "Following success in triathlon, Ethan is bringing his skills to the bike and killing it."
   }
 ]
